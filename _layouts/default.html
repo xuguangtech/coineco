@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+<!-- head -->
+{% include html-head.html %}
+<body>
+    <!-- ================= START PRELOADING ================= -->
+    <div class="loading-overlay">
+        <div class="sk-folding-cube">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- ================= // END PRELOADING ================= -->
+
+    <!-- header -->
+    {% include header.html %}
+
+    <!-- aboutus -->
+    {% include aboutus.html %}
+
+    <!-- services -->
+    {% include services.html %}
+
+    <!-- products -->
+    {% include products.html %}
+
+    <!-- contact -->
+    {% include contact.html %}
+
+    <!-- footer -->
+    {% include footer.html %}
+
+    <!-- scripts -->
+    {% include scripts.html %}
+</body>
+</html>

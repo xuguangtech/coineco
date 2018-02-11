@@ -1,0 +1,4 @@
+baseurl: /
+url: http://www.icoeco.com
+source:      _source
+destination: _deploy

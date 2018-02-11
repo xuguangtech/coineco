@@ -1,0 +1,30 @@
+.introjs-helperNumberLayer {
+    background-image: linear-gradient(#7920ff 0px, #7920ff 100%);
+}
+
+.introjs-helperLayer {
+    background-color: rgba(255,255,255,.4);
+    border-color: #7920ff;
+    border-radius: 20px;
+}
+
+.introjs-tooltiptext {
+    font-family: 'DIN Next LT Pro';
+    padding: 10px;
+    line-height: 150%;
+}
+
+.introjs-showElement {
+    z-index: 1000 !important;
+}
+
+.introjs-overlay {
+    background: none;
+    background-color: transparent;
+}
+
+.introjs-tooltip {
+    background-color: rgba(000, 0, 0, 0.8);
+    min-width: 380px;
+    max-width: 400px;
+}
