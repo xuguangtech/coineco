@@ -1,36 +1,56 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: en }}">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ page.lang | default: site.lang | default: en }}">
 <!-- head -->
 {% include html-head.html %}
 <body>
-    <!-- ================= START PRELOADING ================= -->
-    <div class="loading-overlay">
-        <div class="sk-folding-cube">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
-        </div>
-    </div>
-    <!-- ================= // END PRELOADING ================= -->
-
     <!-- header -->
-    {% include header.html %}
-
-    <!-- aboutus -->
-    {% include aboutus.html %}
-
-    <!-- services -->
-    {% include services.html %}
-
-    <!-- products -->
-    {% include products.html %}
-
-    <!-- contact -->
-    {% include contact.html %}
-
-    <!-- footer -->
-    {% include footer.html %}
-
-    <!-- scripts -->
-    {% include scripts.html %}
+    {% include nav.html %}
+    <div class="clear bump"></div>
+    <!-- popup -->
+    {% include popup.html %}
+    <div id="user" style="display: none;"></div>
+    <div id="myList" style="display: none;"></div>
+    <a href="https://current-app.typeform.com/to/q9FbV6?s=ioa" target="_blank">
+        <div class="featured-banner">
+            <div class="panels">
+                <h3>Current Announces $4 Million Airdrop!</h3>
+                <p>The next Generation of Media Streaming.</p>
+            </div>
+            <div class="panels button"><p class="shadow">APPLY NOW!</p></div>
+        </div>
+    </a>
+    <script type="text/javascript">
+        window.algoliaSearchOnTabChange = true;
+        window.algoliaEnabled = "1";
+        window.algoliaAppId = "JBMTBL811X";
+        window.algoliaSearchKey = "5014b83b888fdd4e8a4b9e62da739c96";
+        window.algoliaIndexName = "icoalert-production";
+        window.timezone = "America/New_York";
+        window.emailSignupUrl = "/";
+        window.csrfTokenName = "CRAFT_CSRF_TOKEN";
+        window.csrfTokenValue = "p7IxuJY2G8s6Od6ZfBdeOlGiERrobWOVfjvq75t~";
+        window.clearifyLaunched = "1";
+    </script>
+    <script type="text/javascript">
+        window.emailSignupUrl = "admin/solspacemailchimp/post-sign-up";
+    </script>
+    <div class="clear"></div>
+    <div id="icos" class="container-main">
+        <!-- aboutus -->
+        {% include aboutus.html %}
+        <!-- products -->
+        {% include products.html %}
+        <!-- aboutus -->
+        {% include trustus.html %}
+        <div class="clear"></div>
+        <div class="clear space"></div>
+        <!-- footer -->
+        {% include footer.html %}
+        <div class="clear space"></div>
+        <!-- email -->
+        {% include email.html %}
+        <!-- scripts -->
+        {% include scripts.html %}
+    </div>
 </body>
 </html>
