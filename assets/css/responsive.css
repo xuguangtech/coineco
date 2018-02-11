@@ -1,321 +1,119 @@
-/* === Responsive Styles === */
+/* =========================================================================
+Template Name: FOLIO. - One Page Responsive Personal Portfolio Template
+Author       : Mo Dauod
+Author URL   : modauod@gmail.com
+Description  : A one page responsive personal portfolio template.
+Version      : 1.0
+========================================================================= */
 
-@media screen and (max-width: 1500px) {
-
-    .website, .report {
-        margin-left: 7%;
+/* ======== START EXTRA SMALL SCREENS ======== */
+@media (min-width:0) and (max-width:767px) {
+    .into:before,
+    .testimonials:before {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
     }
-}
-
-
-@media screen and (max-width: 1350px) {
-
-    .website, .report {
-        margin-left: 10%;
+    h1 {
+        font-size: 50px;
     }
-
-    .featured-banner .panels h3{
-        font-size: 30px !important;
+    p {
+        font-size: 15px !important;
     }
-
-    .featured-banner .panels p{
-        font-size: 16px !important;
+    .navbar-brand {
+        padding: 5px 15px !important;
     }
-
-    .featured-banner .button p{
-        font-size: 16px !important;
+    .about ul.social-icons {
+        text-align: center;
     }
-
-    #toggles{
-        display: none;
+    .services .service {
+        margin-bottom: 40px;
     }
-
-    .col, #presale-active-sorted, #presale-upcoming-sorted, #presale-recent-sorted, #active-sorted, #upcoming-sorted, #recent-sorted {
-    max-width: 380px;
-    }
-
-
-    .col-double{
-        left: 0;
-        margin-left: 0;
-    }
-
-
-
-    .col-contain-upcoming, .col-contain-recent{
-        margin-top: 40px;
-    }
-
-
-    .container-main{
-        width: 95%;
-    }
-
-    h3{
-        font-size: 11px !important;
-    }
-
-
-
-}
-
-
-
-@media screen and (max-width: 1150px) {
-
-    .website, .report {
-        margin-left: 3%;
-    }
-
-    div.mc-field-group.input-group ul li{
-        width: 30%;
-        margin-left: 1%;
-        margin-right: 1%;
-
-    }
-
-    div.mc-field-group.input-group ul li label{
+    .services .service h4 {
         font-size: 18px;
-
     }
-
-    .mailchimp-step p{
-        font-size: 20px;
+    .portfolio .list-inline > li {
+        margin: 10px;
+        display: block;
+        font-size: 16px;
     }
-
-    p input{
-        width: 40px;
-        margin-left: 0px;
-        margin-right: 0px;
+    .portfolio .img-responsive {
+        width: 100%;
     }
-
-    .container-60{
-        width: 80%;
+    .testimonials .item blockquote {
+        width: 100%;
+        font-size: 16px;
     }
-
-}
-
-@media screen and (max-width: 980px) {
-
-    /* Turn off iOS button styling */
-
-    .email-form-wrapper input[type=button] {
-        -webkit-appearance: none !important;
-        border-radius: 0  !important;
-        border-top-right-radius: 5px !important;
-        border-bottom-right-radius: 5px !important;
+    .contact .info .contact-info {
+        text-align: center;
     }
-
-    .email-form-wrapper input[type=text] {
-        -webkit-appearance: none !important;
-        border-radius: 0  !important;
-        border-top-left-radius: 5px !important;
-        border-bottom-left-radius: 5px !important;
-        padding: 0 !important;
-        padding-left: 10px !important;
+    .contact .info .contact-info h4 {
+        font-size: 18px;
     }
-
-    .close-icon{
-        height:23px !important;
+    .contact form .btn-border {
+        width: 100%;
     }
-
-    .website, .report {
-        margin-left: 7%;
+    footer {
+        text-align: center;
     }
-
-    #presale-upcoming-sorted, #presale-recent-sorted, #upcoming-sorted, #recent-sorted {
-        margin-top: 40px !important;
+    footer .copyrights {
+        margin-bottom: 20px;
     }
-
-    .col-contain-active, .col-contain-upcoming, .col-contain-recent, #presale-active-sorted, #presale-upcoming-sorted, #presale-recent-sorted, #active-sorted, #upcoming-sorted, #recent-sorted {
-			float: none;
-			clear: both;
-			display: block;
-			width: 100%;
-			margin: 0 auto;
-			padding: 0;
-    }
-
-    .col-double{
-        left: 0;
-        margin-left: 0;
-    }
-
-    .change-h2{
-        max-width: 400px;
-    }
-
-
-    .container-adjust{
-        width: 100% !important;
-    }
-
-    h3 {
+    footer .copyrights p {
         font-size: 12px !important;
     }
+    ul.social-icons li {
+        margin-bottom: 15px !important;
+    }
 }
+/* ======== // END EXTRA SMALL SCREENS ======== */
 
-@media screen and (max-width: 780px) {
-
-    .featured-banner .panels h3{
-        font-size: 18px !important;
+/* ======== START SMALL SCREENS ======== */
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-right {
+        margin-right: 0;
     }
-
-    .featured-banner .panels p{
-        font-size: 11px !important;
+    .navbar-collapse {
+        padding-right: 0;
     }
-
-    .featured-banner .button p{
-        font-size: 16px !important;
+    .intro:before,
+    .testimonials:before {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
     }
-
-    .container-60{
-
+    .portfolio .img-responsive {
+        width: 100%;
     }
-
-    /*
-		.featured-banner{
-        height: 155px;
+    .testimonials .carousel-inner>.item>a>img,
+    .testimonials .carousel-inner>.item>img {
+        min-width: 0;
     }
-
-    .featured-banner p.ban-adjust{
+    .testimonials .item blockquote {
+        width: 100%;
+        font-size: 16px;
+    }
+    .contact form .btn-border:hover {
+        display: block;
+    }
+    footer {
         text-align: center;
-        float: none;
-        padding-top: 30px !important;
-        margin: 0 !important;
     }
-		*/
-
-    .mob-clear-show{
-        display: block;
+    footer .copyrights {
+        margin-bottom: 20px;
     }
-
-    .subscribe-banner{
-        margin-right: -90px !important;
-        right: 50%;
-        margin-left: 40px;
-        margin-top: 15px !important;
-        box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
-        -moz-box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
-        -webkit-box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
-    }
-
-
 }
+/* ======== // END SMALL SCREENS ======== */
 
-@media screen and (max-width: 650px) {
-
-    div.mc-field-group.input-group ul li{
-        width: 46%;
-        margin-left: 2%;
-        margin-right: 2%;
-
+/* ======== START LARGE SCREENS ======== */
+@media (min-width:1200px) {
+    .navbar .navbar-collapse {
+        padding-right: 0;
     }
-
-    div.mc-field-group.input-group ul li label{
-        font-size: 20px;
-
-    }
-
-    h2.mob-left{
-        text-align: left;
-    }
-
-    .mailchimp-step p{
-    }
-
-    .container-adjust-60{
-        width: 90%;
-    }
-
-
-    .featured-banner-gilgames{
-        height: 155px;
-    }
-
-    .gg-header{
-        font-size: 18px !important;
-    }
-
-    .gg-sub{
-        font-size: 11px !important;
-    }
-
-
 }
+/* ======== // END LARGE SCREENS ======== */
 
-@media screen and (max-width: 550px) {
-
-    #upcoming-sorted {
-        margin-top: 40px;
-    }
-
-    .popup{
-        top: 40px;
-    }
-
-    .container-main{
-        width: 95%;
-    }
-
-    .container{
-        width: 93%;
-    }
-
-    .icon-bell p, .icon-report p{
-        display: none;
-    }
-
-    .br-mob{
-        display: block;
-    }
-
-    p input{
-        margin-left: 0px;
-        margin-right: 0px;
-        z-index: -1;
-        position: relative;
-    }
-
-    h1.podcast{
-        font-size: 40px;
-        line-height: 40px;
-        margin-left: 20px;
-        margin-top: 120px;
-    }
-
-    .subscribe{
-        margin-left: 20px;
-    }
-
-    #live-search{
-        margin-top: 58px;
-    }
-
-    #nav{
-        height: 70px;
-        border-bottom: none;
-    }
-
-    #nav.searchable{
-        height: 120px !important;
-    }
-
-    .featured-banner {
-        margin-top: 50px !important;
-    }
-
-    .divider-mob{
-        display: block;
-    }
-
-    #home-icon{
-        margin-top: -5px !important;
-    }
-
-    * {
-        -webkit-backface-visibility: hidden;
-        -webkit-tap-highlight-color: transparent;
-    }
-
-}
