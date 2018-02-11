@@ -1,10 +1,10 @@
 .introjs-helperNumberLayer {
-    background-image: linear-gradient(#7920ff 0px, #7920ff 100%);
+    background-image: linear-gradient(#d6b110 0px, #d6b110 100%);
 }
 
 .introjs-helperLayer {
     background-color: rgba(255,255,255,.4);
-    border-color: #7920ff;
+    border-color: #d6b110;
     border-radius: 20px;
 }
 

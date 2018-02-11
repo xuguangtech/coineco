@@ -3,8 +3,8 @@
     font-family: 'DIN Next LT Pro';
     margin: 0 5px;
     text-align: left;
-    /*border-top: 3px solid #7920ff;*/
-    /*border-bottom: 3px solid #7920ff;*/
+    /*border-top: 3px solid #d6b110;*/
+    /*border-bottom: 3px solid #d6b110;*/
 }
 
 #homepage-clearify-content {
@@ -40,15 +40,15 @@
 }
 
 #homepage-clearify-text a {
-    color: #7920ff;
+    color: #d6b110;
 }
 
 #homepage-clearify-url{
-    color: #7920ff;
+    color: #d6b110;
 }
 
 #clearify-column {
-    border-left: 1px solid #7920ff
+    border-left: 1px solid #d6b110
 }
 
 
@@ -63,8 +63,8 @@
     font-family: 'DIN Next LT Pro';
     margin: 30px 5px;
     text-align: left;
-    /*border-top: 3px solid #7920ff;*/
-    /*border-bottom: 3px solid #7920ff;*/
+    /*border-top: 3px solid #d6b110;*/
+    /*border-bottom: 3px solid #d6b110;*/
 }
 
 .disclaimer-two-columns#homepage-disclaimer-wrapper {
@@ -72,10 +72,10 @@
 }
 
 #homepage-disclaimer-head {
-    border-top: 3px solid #7920ff;
+    border-top: 3px solid #d6b110;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #7920ff;
+    background-color: #d6b110;
     padding: 20px 30px;
     height: 40px;
 }
@@ -129,7 +129,7 @@
 
 .button-accent {
     color: white !important;
-    background-color: #7920ff;
+    background-color: #d6b110;
 }
 
 #homepage-disclaimer-title {
@@ -151,7 +151,7 @@
 #homepage-disclaimer-text  a:link,
 #homepage-disclaimer-text  a:visited,
 #homepage-disclaimer-text  a:hover {
-    color: #7920ff;
+    color: #d6b110;
 }
 
 

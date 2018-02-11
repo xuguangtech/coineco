@@ -46,7 +46,7 @@ a, a:link, a:visited{
 }
 
 a.purple, a.purple:link, a.purple:visited{
-    color: #7920ff;
+    color: #d6b110;
 }
 
 a.black, a.black:link, a.black:visited{
@@ -54,7 +54,7 @@ a.black, a.black:link, a.black:visited{
 }
 
 a.black:hover h2{
-    color: #7920ff;
+    color: #d6b110;
 }
 
 .container{
@@ -108,7 +108,7 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, input, textarea, label {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #7920ff;
+  background: #d6b110;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -204,7 +204,7 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, input, textarea, label {
 	float: left;
 	margin-left: 10px;
 	line-height: 9px;
-	color: #7920ff;
+	color:#d6b110;
 }
 
 
@@ -225,7 +225,7 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, input, textarea, label {
 	float: right;
 	margin-right: 30px;
 	line-height: 4px;
-	color: #7920ff;
+	color: #d6b110;
 }
 
 
@@ -241,7 +241,7 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, input, textarea, label {
 
 .icon-signup a,
 .icon-login a {
-	background: #7920ff;
+	background: #d6b110;
 	box-sizing: border-box;
 	border-radius: 5px;
 	clear: both;
@@ -530,7 +530,7 @@ h2{
 .website.purp *,
 .report.purp *,
 .like-unlike.purp * {
-	color: #7920ff !important;
+	color: #d6b110 !important;
 }
 
 
@@ -636,14 +636,14 @@ h5{
     width: 165px;
     height: 32px;
     line-height: 3px;
-    border: 2px solid #7920ff;
+    border: 2px solid #d6b110;
     margin-top: 30px;
     cursor: pointer;
 }
 
 .confirm p{
     font-weight: 900;
-    color: #7920ff;
+    color: #d6b110;
     font-size: 16px;
 
 }
@@ -711,7 +711,7 @@ div.mc-field-group.input-group ul li input{
 }
 
 div.mc-field-group.input-group ul li input:checked + label{
-    outline: 3px solid #7920ff;
+    outline: 3px solid #d6b110;
 }
 
 
@@ -843,7 +843,7 @@ p.address{
 .line{
     width: 100%;
     height: 3px;
-    background-color: #7920ff;
+    background-color: #d6b110;
 }
 .report-ind{
     width: 100%;
@@ -899,7 +899,7 @@ p.address{
 
 
 .gradient{
-    background-color: #7920FF;  /* fallback for old browsers */
+    background-color: #d6b110;  /* fallback for old browsers */
     /**background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
    /** background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -954,7 +954,7 @@ h1.sign-up {
 }
 
 .subscribe {
-    background-color: #7920ff;
+    background-color: #d6b110;
     border-radius: 5px;
     width: 140px;
     margin-top: -20px;
@@ -1002,7 +1002,7 @@ h1.sign-up {
 }
 
     .podcast-post:hover{
-        background-color: #7920ff;
+        background-color: #d6b110;
     }
 
 .podcast-post:hover p.crumbs-left, .podcast-post:hover p.crumbs-right, .podcast-post:hover h2, .podcast-post:hover p.crumbs-bottom{
@@ -1073,7 +1073,7 @@ p.crumbs-bottom{
 .podcast-details{
     width: 100%;
     height: auto;
-    background-color: #7920ff;
+    background-color: #d6b110;
     position: relative;
     margin-top: -25px;
 }
@@ -1107,7 +1107,7 @@ h6{
 	clear: both;
 	display: block;
 	width: 100%;
-	background-color: #7920ff;
+	background-color: #d6b110;
 	margin: 0 !important;
 	padding: 45px 0 35px;
 }
@@ -1193,7 +1193,7 @@ h6{
     margin-top: -28px;
     right: 15px;
     font-size: 9px;
-    color: #7920ff;
+    color: #d6b110;
     text-decoration: underline;
 		text-transform: uppercase;
 }
@@ -1288,7 +1288,7 @@ h6{
 }
 
 #miniMenu ul li:hover{
-    background-color: #7920ff;
+    background-color: #d6b110;
     color: #ffffff;
     cursor: pointer;
 }
@@ -1380,7 +1380,7 @@ form.user .form-item textarea {
 }
 
 form.user #submit {
-	background: #7920ff;
+	background: #d6b110;
 	border: 0;
 	border-radius: 5px;
 	clear: both;
@@ -1402,7 +1402,7 @@ form.user #submit {
 
 
 /* Colour */
-.purp { color: #7920ff !important; }
+.purp { color: #d6b110 !important; }
 .black { color: #000000 !important; }
 .upper { text-transform: uppercase; }
 
@@ -1478,7 +1478,7 @@ form.user #submit {
 .loader-icon {
     border: 10px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 10px solid #7920ff;
+    border-top: 10px solid #d6b110;
     width: 20px;
     height: 20px;
     top: 50%;
@@ -1557,7 +1557,7 @@ form.user #submit {
 
 .ico-wrap.featured h3,
 .ico-wrap.featured p,
-.ico-wrap.featured * { color: #7920FF; }
+.ico-wrap.featured * { color: #d6b110; }
 
 .ico-wrap.featured h3::before {
     content: '[FEATURED] ';
@@ -1678,7 +1678,7 @@ form.user #submit {
 		margin-top: 20px;
 	}
 
-	.popup p span { color: #7920ff; }
+	.popup p span { color: #d6b110; }
 
 #cross {
 	position: absolute;
@@ -1864,7 +1864,7 @@ form.user #submit {
 }
 
 .black-icon * { color: #000 !important; }
-.purp-icon * { color: #7920ff !important; }
+.purp-icon * { color: #d6b110 !important; }
 
 #my-list li .remove {
 	position: absolute;
@@ -1951,7 +1951,7 @@ form.user #submit {
     background: white;
     z-index: 99999909;
     padding: 10px;
-    border: 1px solid #7920ff;
+    border: 1px solid #d6b110;
     border-radius: 5px;
 }
 
@@ -1962,12 +1962,12 @@ form.user #submit {
 }
 
 .email-form-wrapper input[type=button] {
-    background-color: #7920ff;
+    background-color: #d6b110;
     color: white;
     padding-top: 5px;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid #7920ff;
+    border: 1px solid #d6b110;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     font-weight: 900;
@@ -1985,7 +1985,7 @@ form.user #submit {
 }
 
 .email-check-icon {
-    color: #7920ff;
+    color: #d6b110;
     font-weight: normal !important;
     font-size: 26px !important;
     -webkit-text-stroke: 1px white !important;
